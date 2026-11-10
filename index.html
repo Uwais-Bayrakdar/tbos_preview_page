@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Book of Shorts - Free Preview</title>
 
-  <!-- OpenGraph Metadata for clean social media preview cards -->
+  <!-- OpenGraph Metadata for social preview cards -->
   <meta property="og:title" content="The Book of Shorts — Free Preview" />
   <meta property="og:description" content="Read a free interactive preview of The Book of Shorts." />
   <meta property="og:type" content="website" />
 
-  <!-- Immediate meta refresh redirect -->
-  <meta http-equiv="refresh" content="0; url=https://heyzine.com/flip-book/ecd6dfa275.html" />
+  <!-- PASTE YOUR CLOUDFLARE SCRIPT SNIPPET RIGHT HERE -->
+  <!-- Example: <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "..."}'></script> -->
 
   <script>
-    // Fastest client-side forward: replaces history state so 'back' button works cleanly
-    window.location.replace("https://heyzine.com/flip-book/ecd6dfa275.html");
+    // Brief 350ms buffer so the analytics beacon completes, then redirects
+    setTimeout(function() {
+      window.location.replace("https://heyzine.com/flip-book/ecd6dfa275.html");
+    }, 350);
   </script>
 
   <style>
